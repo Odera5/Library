@@ -174,7 +174,6 @@ NewBookbtn.addEventListener("click", function addNewBook() {
     e.preventDefault();
     NewBookbtn.addEventListener("click", addNewBook);
   }
-
   displayBtn.appendChild(form);
   NewBookbtn.removeEventListener("click", arguments.callee);
 });
